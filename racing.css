@@ -1,0 +1,118 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+p {
+    font-size: 18px;
+}
+
+.header-head {
+    height: 50%;
+    width: 100%;
+    background-image: url("img/racing/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-position: center;
+    padding-top: 18px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgba(64, 64, 64, 0.4);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    max-width: fit-content;
+    flex-basis: fit-content;
+    flex-shrink: 2;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 256px;
+    max-height: 128px;
+    min-width: 64px;
+    min-height: 32px;
+    margin: 12px 12px;
+}
+
+.logo-square {
+    max-width: 128px;
+    max-height: 128px;
+    min-width: 32px;
+    min-height: 32px;
+    margin: 12px 0;
+    padding: 0 12px;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding: 14px;
+}
+
+.red-bg {
+    background-color: rgb(150, 0, 0);
+    color: white;
+}
+
+.std-bg {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.cards-div {
+    background-image: url("img/racing/background-2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    width: 100%;
+    color: white;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: rgba(60, 60, 60, 0.8);
+    border: 1px transparent solid;
+    border-radius: 8px;
+    width: 27%;
+    padding: 8px;
+    margin: 1%;
+}
+
+#main-logo {
+    border-left: 2px solid rgb(127, 127, 127);
+    border-right: 2px solid rgb(127, 127, 127);
+    border-radius: 4px;
+}
